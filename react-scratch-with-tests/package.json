@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +15,13 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@types/jest": "^26.0.24",
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
     "ts-loader": "^9.2.4",
     "typescript": "^4.3.5",
     "webpack": "^5.47.1",
